@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+
+    <EditText
+        android:id="@+id/bebra"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:allowUndo="false"
+        android:backgroundTint="@android:color/transparent"
+        android:fadeScrollbars="false"
+        android:singleLine="false"
+        android:text="Пропустить"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:textColor="#1A6FEE"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/parol"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="68dp"
+
+        android:allowUndo="false"
+        android:backgroundTint="@android:color/transparent"
+        android:fadeScrollbars="false"
+        android:singleLine="false"
+        android:text="Создайте пароль"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/zas"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Для защиты ваших персональных данных"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parol"
+        android:textColor="#939396"
+        />
+
+    <Button
+        android:id="@+id/knpka2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintStart_toEndOf="@+id/knpka1"
+        app:layout_constraintTop_toBottomOf="@+id/zas" />
+
+    <Button
+        android:id="@+id/knpka7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="7"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knpka4" />
+
+    <Button
+        android:id="@+id/knpka3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/knpka2"
+        app:layout_constraintTop_toBottomOf="@+id/zas" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/progress"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zas"
+        app:layout_goneMarginTop="50dp" />
+
+    <Button
+        android:id="@+id/knpka5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintStart_toEndOf="@+id/knpka4"
+        app:layout_constraintTop_toBottomOf="@+id/knpka2" />
+
+    <Button
+        android:id="@+id/knpka8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="8"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintStart_toEndOf="@+id/knpka7"
+        app:layout_constraintTop_toBottomOf="@+id/knpka5" />
+
+    <Button
+        android:id="@+id/knpka6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="6"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/knpka5"
+        app:layout_constraintTop_toBottomOf="@+id/knpka3" />
+
+    <Button
+        android:id="@+id/knpka0"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knpka8"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/knpka1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zas" />
+
+    <Button
+        android:id="@+id/knpka9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/knpka8"
+        app:layout_constraintTop_toBottomOf="@+id/knpka6" />
+
+    <Button
+        android:id="@+id/knpka4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#A8A8AA"
+        android:text="4"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knpka1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
